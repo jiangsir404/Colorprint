@@ -8,6 +8,7 @@
 Logger类:
 
 	from colorprint import Logger
+	
     logger = Logger()
     logger.info('test1')
     logger.error('test2')
@@ -18,6 +19,8 @@ Logger类:
 
 
 ColorPrint类
+
+	from colorprint import ColorPrint
 
     colorprint = ColorPrint()
     colorprint.print_red_text('i am red')
