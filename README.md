@@ -22,10 +22,10 @@ ColorPrint类
 
 	from colorprint import ColorPrint
 
-    colorprint = ColorPrint()
-    colorprint.print_red_text('i am red')
-    colorprint.print_random_text('i am change color')
-    colorprint.print_random_text('i am change color')
+    cp = ColorPrint()
+    cp.red('i am red')
+    cp.random('i am change color')
+    cp.random('i am change color')
 
 
 ![1.jpg](1.jpg)
