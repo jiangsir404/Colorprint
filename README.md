@@ -1,0 +1,2 @@
+# Colorprint
+用Python装饰器封装的一个实现logger+colorlog的颜色输出功能，不需要依赖第三方库
